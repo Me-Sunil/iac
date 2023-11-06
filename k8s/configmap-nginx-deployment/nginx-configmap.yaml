@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-1
+data:
+  index.html: |
+    <html>
+    <head>
+      <title>Sunil Yadav</title>
+    </head>
+      <body>
+        <h1>Nginx Deployment One</h1>
+      </body>
+    </html>
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-2
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Sunil Yadav</title>
+      </head>
+      <body>
+        <h1>Nginx Deployment Two</h1>
+      </body>
+    </html>
